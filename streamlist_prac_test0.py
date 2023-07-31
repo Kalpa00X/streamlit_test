@@ -3,6 +3,12 @@ import pandas as pd
 import numpy as np
 import os
 
+try:
+    import sklearn
+except:
+    os.system("pip install scikit-learn")
+    import sklearn
+    
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
