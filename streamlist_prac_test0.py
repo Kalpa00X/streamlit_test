@@ -13,6 +13,7 @@ except:
     import streamlit as st
 
 
+# test comment
 #PAGE_CONFIG = {"page_title":"StColab.io","page_icon":":smiley:","layout":"centered"}
 #st.beta_set_page_config(**PAGE_CONFIG)
 
